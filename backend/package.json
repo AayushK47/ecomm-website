@@ -1,0 +1,28 @@
+{
+  "name": "ecomm-website-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/AayushK47/ecomm-website",
+  "author": "Aayush Kurup",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "pg": "^8.7.1",
+    "sequelize": "^6.12.0-beta.1",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

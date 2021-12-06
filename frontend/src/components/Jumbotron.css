@@ -1,0 +1,4 @@
+.bg-image {
+    background-image: url('../assets/jumbo-img.jpg');
+    background-size: cover;
+}
